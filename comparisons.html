@@ -1,20 +1,27 @@
-
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WeatherPy</title>
 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="weather.css">
   
 </head>
-  <body style="background-color: lightgray">
+  <body style="background-color: rgba(0, 0, 0, 0.082)">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -27,7 +34,7 @@
           <div class="col-md-1"></div>
           <div class="col-md-1"></div>
           <div class="col-md-1"></div>
-          <a class="navbar-brand" href="index.html" style="color: white; background-color: rgb(0, 120, 120);">
+          <a class="navbar-brand" href="index.html" style="color: white; background-color: rgb(0, 128, 128);">
             <span class="nav-color">Latitude</span>
           </a>
         </div>
@@ -37,15 +44,16 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="temperature.html">Temperature</a></li>
-            <li><a href="humidity.html">Humidity</a></li>
-            <li><a href="cloudiness.html">Cloud Cover</a></li>
-            <li><a href="wind.html">Wind Speed</a></li>
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="wind_speed.html">Wind Speed</a></li>
+                <li><a href="cloudiness.html">Cloud Cover</a></li>
+                <li><a href="humidity.html">Humidity</a></li> 
           </ul>
         </li>
         <li><a href="comparisons.html">Comparisons</a></li>
         <li><a href="data.htm">Data</a></li>
-        </ul>
+        
+      </ul>
     </div>
   </div>
 </nav>
